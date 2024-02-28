@@ -2,14 +2,59 @@
 # This file is distributed under the same license as the Plugins - WP Fastest Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-08 20:48:44+0000\n"
+"PO-Revision-Date: 2024-02-27 09:57:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - WP Fastest Cache - Stable (latest release)\n"
+
+#: templates/preload.php:374 templates/preload.php:457
+#: templates/preload.php:474
+msgid "At least one sitemap must be added"
+msgstr "Au moins un plan de site doit être ajouté"
+
+#: templates/preload.php:187
+msgid "You can customize the advanced settings through this section."
+msgstr "Cette section vous permet de personnaliser les réglages avancés."
+
+#: templates/preload.php:186
+msgid "Advanced Settings"
+msgstr "Réglages avancés"
+
+#: templates/preload.php:151
+msgid "You can specify sitemaps to be used for preloading."
+msgstr "Vous pouvez spécifier les plans de site à utiliser pour le préchargement."
+
+#: templates/preload.php:150
+msgid "Sitemaps"
+msgstr "Plans de site"
+
+#: templates/preload.php:87
+msgid "You can specify the contents to be used for preloading and you can sort them as well."
+msgstr "Vous pouvez spécifier le contenu à utiliser pour le préchargement et également le trier."
+
+#: templates/preload.php:86
+msgid "Content Types"
+msgstr "Types de contenu"
+
+#: templates/preload.php:73
+msgid "You can specify the method you want the preload feature to use through this section."
+msgstr "Vous pouvez spécifier la méthode que vous souhaitez utiliser pour la fonctionnalité de préchargement dans cette section."
+
+#: templates/preload.php:72
+msgid "Choose a Method"
+msgstr "Choisir une méthode"
+
+#: inc/admin.php:1445 inc/admin.php:1452
+msgid "Some js sources will not be loaded until scrolling or moving the mouse"
+msgstr "Certaines sources JS ne seront pas chargées tant que le défilement ou le déplacement de la souris n’aura pas eu lieu."
+
+#: inc/admin.php:1444 inc/admin.php:1451
+msgid "Delay Js"
+msgstr "Temporisation JS"
 
 #: inc/admin.php:1061
 msgid "WP Fastest Cache Options"
