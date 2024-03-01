@@ -1,0 +1,113 @@
+/* Header */
+
+.ct-header {
+    width: 100%;
+}
+.ct-header [data-device="desktop"] {
+    max-width: 1440px;
+    margin: auto;
+}
+#header [data-column-set="2"]>div {
+    grid-template-columns: 25% 75% !important;
+}
+#header [data-items]>* {
+    margin: 0 !important;
+}
+.site-logo-container img {
+    width: 100% !important;
+}
+
+/* Footer */
+
+[data-footer*="type-1"] .ct-footer [data-row*="middle"] > div {
+    --container-spacing: none;
+}
+
+.ct-footer {
+    height : 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu-inline {
+    display: flex;
+    justify-content: center;
+}
+
+/* Alignement du main et des sections */
+
+/* Main */
+.entry-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-vertical-spacing*=bottom] {
+    padding-bottom: 0 !important;
+}
+.wp-block-group {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+article>.entry-content>*:where(:not(.alignfull):not(.alignwide):not(.alignleft):not(.alignright)) {
+    max-width: 100% !important;
+}
+
+/* Sections largeur */
+
+.contenuSection1 {
+    width: 65% !important;
+    margin: auto;
+}
+.contenuSection2 {
+    width: 30% !important;
+    margin: auto;
+}
+.contenuSection3 {
+    width: 65% !important;
+    margin: auto;
+}
+.contenuSection4 {
+    width: 90% !important;
+    margin: auto;
+}
+.contenuSection5 {
+    width: 80% !important;
+    margin: auto;
+}
+.contenuSection5bis {}
+
+.contenuSection6 {
+    width: 80% !important;
+}
+.contenuSection6bis {}
+
+.contenuSection7 {
+    width: 50% !important;
+    margin: auto;
+}
+
+
+/* Inséreer les cannettes en bgi */
+.insertBackground {
+    padding-top: 56px !important;
+    height: 200px;
+    background-image: url(../images/Cannettes\ footer.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+/* Page 1, Section Les Goûts */
+.blocDeFruits {
+    min-width: 406px;
+    min-height: 302px !important;
+}
+
+/* Page 2, Section Nous Rencontrer (bgi) */
+.feuilleRonde {
+}
