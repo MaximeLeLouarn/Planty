@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Blocksy Companion - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-24 17:42:57+0000\n"
+"PO-Revision-Date: 2024-03-05 14:59:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Blocksy Companion - Stable (latest release)\n"
 
@@ -43,7 +43,7 @@ msgstr "Information additionnelle sur l’utilisateur/utilisatrice"
 msgid "Action Link"
 msgstr "Lien d’action"
 
-#: framework/helpers/exts.php:245
+#: framework/helpers/exts.php:278
 msgid "Free Shipping Bar"
 msgstr "Barre de livraison gratuite"
 
@@ -55,115 +55,115 @@ msgstr "Origine de l’icône du titre du module"
 msgid "Product Taxonomy ID"
 msgstr "ID de taxonomie du produit"
 
-#: framework/helpers/exts.php:309
+#: framework/helpers/exts.php:271
 msgid "Enhance your WooCommerce reviews with rich content, images and a thumbs up system that help your shoppers find the perfect product."
 msgstr "Améliorez vos avis WooCommerce avec du contenu riche, des images et un système de pouce pour aider vos clients à trouver le produit idéal."
 
-#: framework/helpers/exts.php:308
+#: framework/helpers/exts.php:270
 msgid "Advanced Reviews"
 msgstr "Avis avancés"
 
-#: framework/helpers/exts.php:299
+#: framework/helpers/exts.php:262
 msgid "Create a customized order “Thank You” page for your customers, giving them a personalized experience."
 msgstr "Créez une page de remerciement de commande personnalisée pour vos clients et offrez-leur une expérience personnalisée."
 
-#: framework/helpers/exts.php:298
+#: framework/helpers/exts.php:261
 msgid "Custom Thank You Pages"
 msgstr "Pages de remerciement personnalisées"
 
-#: framework/helpers/exts.php:289
+#: framework/helpers/exts.php:253
 msgid "Show a size chart guide so that your visitors can pick the right size for them when ordering a product."
 msgstr "Affichez un tableau des tailles afin que vos visiteurs puissent choisir la taille qui leur convient lorsqu’ils commandent un produit."
 
-#: framework/helpers/exts.php:288
+#: framework/helpers/exts.php:252
 msgid "Size Guide"
 msgstr "Guide des tailles"
 
-#: framework/helpers/exts.php:279
+#: framework/helpers/exts.php:244
 msgid "Present additional information about your products by adding new custom tabs to the product information section."
 msgstr "Présentez des informations supplémentaires sur vos produits en ajoutant de nouveaux onglets personnalisés à la section des informations sur les produits."
 
-#: framework/helpers/exts.php:278
+#: framework/helpers/exts.php:243
 msgid "Custom Tabs"
 msgstr "Onglets personnalisés"
 
-#: framework/helpers/exts.php:271
+#: framework/helpers/exts.php:310
 msgid "Better management for affiliate products with a few simple options that strengthen the external integration with these."
 msgstr "Meilleure gestion des produits d’affiliation grâce à quelques options simples qui renforcent l’intégration externe avec ces produits."
 
-#: framework/helpers/exts.php:270
+#: framework/helpers/exts.php:309
 msgid "Affiliate Product Links"
 msgstr "Liens d’affiliation produit"
 
-#: framework/helpers/exts.php:262
+#: framework/helpers/exts.php:235
 msgid "Categorise products by brands and show their logo in archive or single page so users could discover more about their makers."
 msgstr "Catégoriser les produits par marque et afficher leur logo dans les archives ou sur une page unique afin que les utilisateurs/utilisatrices puissent en savoir plus sur les fabricants."
 
-#: framework/helpers/exts.php:261
+#: framework/helpers/exts.php:234
 msgid "Product Brands"
 msgstr "Marques de produits"
 
-#: framework/helpers/exts.php:254
+#: framework/helpers/exts.php:227
 msgid "Catch the attention of your clients by showcasing your product variations as colour, image or button swatches."
 msgstr "Attirez l’attention de vos clients en présentant les variations de vos produits sous forme d’échantillons de couleurs, d’images ou de boutons."
 
-#: framework/helpers/exts.php:253
+#: framework/helpers/exts.php:226
 msgid "Variation Swatches"
 msgstr "Nuancier de variation"
 
-#: framework/helpers/exts.php:246
+#: framework/helpers/exts.php:279
 msgid "Add a visual cue that tells your visitors how much the cart total must be to be able to benefit of free shipping."
 msgstr "Ajoutez un repère visuel qui indique à vos visiteurs quel doit être le montant du panier pour pouvoir bénéficier de la livraison gratuite."
 
-#: framework/helpers/exts.php:239
+#: framework/helpers/exts.php:303
 msgid "Advanced searching for products by their SKU classification can be useful in cases of vast product catalogues."
 msgstr "La recherche avancée de produits par leur classification UGS peut s’avérer utile dans le cas de vastes catalogues de produits."
 
-#: framework/helpers/exts.php:238
+#: framework/helpers/exts.php:302
 msgid "Search by SKU"
 msgstr "Rechercher par UGS"
 
-#: framework/helpers/exts.php:231
+#: framework/helpers/exts.php:287
 msgid "Replace the standard product gallery with additional layouts which can showcase the photos as a grid or even a slider."
 msgstr "Remplacez la galerie de produits standard par des mises en page supplémentaires qui peuvent présenter les photos sous la forme d’une grille ou même d’un diaporama."
 
-#: framework/helpers/exts.php:230
+#: framework/helpers/exts.php:286
 msgid "Advanced Gallery"
 msgstr "Galerie avancée"
 
-#: framework/helpers/exts.php:223
+#: framework/helpers/exts.php:295
 msgid "Enable social sharing abilities for products available on the site, letting even more users discover your great shop selection."
 msgstr "Activez les fonctions de partage social pour les produits disponibles sur le site, afin de permettre à un plus grand nombre d’internautes de découvrir votre vaste sélection de produits."
 
-#: framework/helpers/exts.php:222
+#: framework/helpers/exts.php:294
 msgid "Product Share Box"
 msgstr "Boîte de partage de produit"
 
-#: framework/helpers/exts.php:215
-msgid "Compare products with a clear and concise table system that givis your users a way to make a quick decision."
-msgstr "Comparez les produits à l’aide d’un système de tableaux clair et concis qui permet à vos internautes de prendre rapidement une décision."
+#: framework/helpers/exts.php:219
+msgid "Compare products with a clear and concise table system that gives your users a way to make a quick decision."
+msgstr "Comparez les produits à l’aide d’un système de tableaux clair et concis qui permet aux internautes de prendre rapidement une décision."
 
-#: framework/helpers/exts.php:214
+#: framework/helpers/exts.php:218
 msgid "Compare View"
 msgstr "Vue comparative"
 
-#: framework/helpers/exts.php:206
+#: framework/helpers/exts.php:211
 msgid "A set of features that lets you create easily your dream products wishlists and share them with friends and family."
 msgstr "Un ensemble de fonctionnalités qui vous permet de créer facilement vos listes de produits de rêve et de les partager avec vos amis/amies et votre famille."
 
-#: framework/helpers/exts.php:198
+#: framework/helpers/exts.php:203
 msgid "Drill down the product list with new filtering widgets, an off canvas area for them and showing the active filters on the page."
 msgstr "Faites défiler la liste des produits avec les nouveaux widgets de filtrage, d’une zone hors-champ pour ces widgets et de l’affichage des filtres actifs sur la page."
 
-#: framework/helpers/exts.php:197
+#: framework/helpers/exts.php:202
 msgid "Filters"
 msgstr "Filtres"
 
-#: framework/helpers/exts.php:190
+#: framework/helpers/exts.php:195
 msgid "Preview the available products and let your users make quick and informative decisions about their purchase."
 msgstr "Prévisualisez les produits disponibles et permettez à vos utilisateurs de prendre des décisions d’achat rapides et éclairées."
 
-#: framework/helpers/exts.php:182
+#: framework/helpers/exts.php:187
 msgid "Adds the “add to cart” actions to the product page as a floating bar if the product summary has disappeared from view."
 msgstr "Ajoute les actions « ajouter au panier » à la page du produit sous la forme d’une barre flottante si le résumé du produit a disparu de la vue."
 
@@ -324,8 +324,8 @@ msgctxt "Extension Brand Name"
 msgid "Adobe Fonts"
 msgstr "Adobe Fonts"
 
-#: framework/features/header/items/account/views/login.php:495
-#: framework/helpers/exts.php:205
+#: framework/features/header/items/account/views/login.php:509
+#: framework/helpers/exts.php:210
 msgid "Wishlist"
 msgstr "Liste de souhaits"
 
@@ -379,25 +379,25 @@ msgid "Content Block"
 msgstr "Bloc de contenu"
 
 #: framework/features/header/items/account/options.php:235
-#: framework/features/header/items/account/views/login.php:619
+#: framework/features/header/items/account/views/login.php:633
 msgid "bbPress Dashboard"
 msgstr "Tableau de bord bbPress"
 
 #: framework/features/header/items/account/options.php:215
 #: framework/features/header/items/account/options.php:219
-#: framework/features/header/items/account/views/login.php:592
+#: framework/features/header/items/account/views/login.php:606
 msgid "Tutor LMS Dashboard"
 msgstr "Tableau de bord LMS Tutor"
 
 #: framework/features/header/items/account/options.php:199
 #: framework/features/header/items/account/options.php:203
-#: framework/features/header/items/account/views/login.php:560
+#: framework/features/header/items/account/views/login.php:574
 msgid "Dokan Shop"
 msgstr "Dokan Shop"
 
 #: framework/features/header/items/account/options.php:185
 #: framework/features/header/items/account/options.php:189
-#: framework/features/header/items/account/views/login.php:527
+#: framework/features/header/items/account/views/login.php:541
 msgid "Dokan Dashboard"
 msgstr "Tableau de bord Dokan"
 
@@ -405,14 +405,14 @@ msgstr "Tableau de bord Dokan"
 #: framework/features/header/items/account/options.php:105
 #: framework/features/header/items/account/options.php:667
 #: framework/features/header/items/account/views/login.php:170
-#: framework/features/header/items/account/views/login.php:370
+#: framework/features/header/items/account/views/login.php:384
 msgid "Log Out"
 msgstr "Se déconnecter"
 
 #: framework/features/header/items/account/options.php:91
 #: framework/features/header/items/account/options.php:658
 #: framework/features/header/items/account/views/login.php:164
-#: framework/features/header/items/account/views/login.php:349
+#: framework/features/header/items/account/views/login.php:363
 msgid "Edit Profile"
 msgstr "Modifier le profil"
 
@@ -558,7 +558,7 @@ msgstr "Veuillez accepter la politique de confidentialité afin de pouvoir comme
 #: framework/features/header/items/account/options.php:77
 #: framework/features/header/items/account/options.php:649
 #: framework/features/header/items/account/views/login.php:158
-#: framework/features/header/items/account/views/login.php:320
+#: framework/features/header/items/account/views/login.php:334
 msgid "Dashboard"
 msgstr "Tableau de bord "
 
@@ -1109,7 +1109,7 @@ msgstr "Ouvrir les liens dans un nouvel onglet"
 msgid "WooCommerce Account"
 msgstr "Compte WooCommerce"
 
-#: framework/features/conditions-manager.php:257
+#: framework/features/conditions-manager.php:259
 msgid "Language"
 msgstr "Langue"
 
@@ -1279,7 +1279,7 @@ msgstr "Sélectionner le menu"
 #: framework/features/header/items/account/options.php:36
 #: framework/features/header/items/account/options.php:117
 #: framework/features/header/items/account/options.php:280
-#: framework/features/header/items/account/views/login.php:397
+#: framework/features/header/items/account/views/login.php:411
 msgid "Custom Link"
 msgstr "Lien personnalisé"
 
@@ -1459,12 +1459,12 @@ msgstr "Visibilité du libellé"
 msgid "Post with Taxonomy ID"
 msgstr "Publication avec ID de taxonomie"
 
-#: framework/features/conditions-manager.php:198 static/bundle/options.js:14
+#: framework/features/conditions-manager.php:200 static/bundle/options.js:14
 #: static/js/options/ConditionsManager/SingleCondition.js:90
 msgid "Exclude"
 msgstr "Exclure"
 
-#: framework/features/conditions-manager.php:198 static/bundle/options.js:14
+#: framework/features/conditions-manager.php:200 static/bundle/options.js:14
 #: static/js/options/ConditionsManager/SingleCondition.js:89
 msgid "Include"
 msgstr "Inclure"
@@ -1541,11 +1541,11 @@ msgstr "Moyenne"
 msgid "Source"
 msgstr "Source"
 
-#: framework/helpers/exts.php:181
+#: framework/helpers/exts.php:186
 msgid "Floating Cart"
 msgstr "Panier flottant"
 
-#: framework/helpers/exts.php:189
+#: framework/helpers/exts.php:194
 msgid "Quick View"
 msgstr "Vue rapide"
 
@@ -1657,8 +1657,8 @@ msgstr "Formulaire d’inscription"
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/view.php:232
 #: framework/features/header/items/account/options.php:578
-#: static/bundle/dashboard.js:6 static/js/dashboard/screens/SiteExport.js:82
-#: static/js/dashboard/screens/SiteExport.js:86
+#: static/bundle/dashboard.js:6 static/js/dashboard/screens/SiteExport.js:84
+#: static/js/dashboard/screens/SiteExport.js:88
 msgid "Name"
 msgstr "Nom"
 
@@ -1710,7 +1710,7 @@ msgstr "Champ du nom"
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:50
 #: framework/extensions/newsletter-subscribe/customizer.php:61
 #: framework/extensions/newsletter-subscribe/dashboard-static/bundle/main.js:14
-#: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:202
+#: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:204
 msgid "List ID"
 msgstr "ID de la liste"
 
@@ -2076,7 +2076,7 @@ msgstr "Page de profil"
 #: framework/features/header/items/account/options.php:173
 #: framework/features/header/items/account/options.php:597
 #: framework/features/header/items/account/views/login.php:100
-#: framework/features/header/items/account/views/login.php:451
+#: framework/features/header/items/account/views/login.php:465
 msgid "My Account"
 msgstr "Mon compte"
 
@@ -2135,7 +2135,7 @@ msgstr "La stratégie de sortie du CSS dynamique. Fichier - tout le code CSS ser
 msgid "Dynamic CSS Output"
 msgstr "Sortie CSS dynamique"
 
-#: framework/features/demo-install.php:268
+#: framework/features/demo-install.php:288
 msgid "Your PHP installation doesn't have support for XML. Please install the <i>xml</i> or <i>simplexml</i> PHP extension in order to be able to install starter sites. You might need to contact your hosting provider to assist you in doing so."
 msgstr "Votre installation PHP ne prend pas en charge XML. Veuillez installer l’extension php <i>xml</i> ou <i>simplexml</i> afin d’être en mesure d’installer des sites de démarrage. Vous devrez peut-être contacter votre fournisseur d’hébergement pour vous aider à le faire."
 
@@ -2466,7 +2466,7 @@ msgid "OpenGraph Meta Data"
 msgstr "Métadonnées OpenGraph"
 
 #: framework/theme-integration.php:425 static/bundle/dashboard.js:6
-#: static/js/dashboard/screens/SiteExport.js:110
+#: static/js/dashboard/screens/SiteExport.js:112
 msgid "PRO"
 msgstr "Pro"
 
@@ -2491,17 +2491,21 @@ msgid "Facebook"
 msgstr "Facebook"
 
 #. Author URI of the plugin
+#: blocksy-companion.php
 msgid "https://creativethemes.com"
 msgstr "https://creativethemes.com"
 
 #. Author of the plugin
+#: blocksy-companion.php
 msgid "CreativeThemes"
 msgstr "CreativeThemes"
 
 #. Description of the plugin
+#: blocksy-companion.php
 msgid "This plugin is the companion for the Blocksy theme, it runs and adds its enhacements only if the Blocksy theme is installed and active."
 msgstr "Cette extension est le compagnon du thème Blocksy, il fonctionne et ajoute ses améliorations uniquement si le thème Blocksy est installé et actif."
 
 #. Plugin Name of the plugin
+#: blocksy-companion.php
 msgid "Blocksy Companion"
 msgstr "Blocksy Companion"

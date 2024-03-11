@@ -4,7 +4,7 @@
     width: 100%;
 }
 .ct-header [data-device="desktop"] {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
 }
 #header [data-column-set="2"]>div {
@@ -34,6 +34,25 @@
     justify-content: center;
 }
 
+/* Menu, Boutons + item commander */
+
+.commander {
+    background-color: #DC9F96;
+    width: 100%;
+}
+.commander a {
+    color: white !important;
+}
+.ct-menu-link {
+    padding: 0 16px !important;    
+}
+.commander:hover {
+    background-color: #C02E44;
+}
+.commander:focus {
+    background-color: #C02E44;
+}
+
 /* Alignement du main et des sections */
 
 /* Main */
@@ -57,40 +76,40 @@ article>.entry-content>*:where(:not(.alignfull):not(.alignwide):not(.alignleft):
     max-width: 100% !important;
 }
 
-/* Sections largeur */
+/* Background color de la page Commander */
+article#post-18 {
+    background-color: #3B8E46;
+}
+
+
+/* Section styles */
 
 .contenuSection1 {
-    width: 65% !important;
-    margin: auto;
+    border-radius: 0 0 3% 3%;
+    border-bottom: solid 5px #d5cdc7;
 }
-.contenuSection2 {
-    width: 30% !important;
-    margin: auto;
-}
+
 .contenuSection3 {
-    width: 65% !important;
-    margin: auto;
+    border-radius: 0 0 3% 3%;
+    border-bottom: solid 5px #d5cdc7;
 }
-.contenuSection4 {
-    width: 90% !important;
-    margin: auto;
-}
+
 .contenuSection5 {
-    width: 80% !important;
-    margin: auto;
+    border-radius: 0 0 3% 3%;
+    border-bottom: solid 5px #d5cdc7;
+    padding-top: 120px !important;
+    background-image: url(../images/feuille\ ronde.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top 15% left 10%;
 }
-.contenuSection5bis {}
 
 .contenuSection6 {
-    width: 80% !important;
+    background-image: url(../images/Branche\ de\ feuilles.png);
+    background-repeat: no-repeat;
+    background-size: 191px 210px;
+    background-position: bottom 0% right 2%;
 }
-.contenuSection6bis {}
-
-.contenuSection7 {
-    width: 50% !important;
-    margin: auto;
-}
-
 
 /* Inséreer les cannettes en bgi */
 .insertBackground {
@@ -103,11 +122,69 @@ article>.entry-content>*:where(:not(.alignfull):not(.alignwide):not(.alignleft):
 }
 
 /* Page 1, Section Les Goûts */
-.blocDeFruits {
-    min-width: 406px;
-    min-height: 302px !important;
-}
+.blocDeFruits {}
 
 /* Page 2, Section Nous Rencontrer (bgi) */
-.feuilleRonde {
+
+
+
+
+/* Formulaire */
+
+/* De la page Nous Contacter */
+div#wpcf7-f85-p16-o1 {
+    max-width: 520px;
+}
+form.wpcf7-form.init {
+    padding: 0 70px;
+    background-image: url(../images/feuille\ de\ houx.png);
+    background-repeat: no-repeat;
+    background-size: 148px 136px;
+    background-position: left 0px bottom 69px;
+}
+input[type=text] {
+    background-color: #fff !important;
+    border: none !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12% !important;
+    height: 71px !important;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 12% !important;
+    margin: 32px 25%;
+    cursor: pointer;
+}
+
+textarea {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none !important;
+    background-color: #fff !important;
+    border-radius: 8% !important;
+    height: 237px !important;
+    font-size: 20px;
+}
+
+
+
+/* Responsive part */
+
+@media screen and (max-width: 1250px) {
+    .contenuSection5 {
+        background-position: top 15% left 5%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .contenuSection5 {
+        background-image: none;
+    }
+    .contenuSection6 {
+        background-image: none;
+    }
 }
