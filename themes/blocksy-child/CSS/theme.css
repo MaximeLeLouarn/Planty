@@ -13,7 +13,69 @@
 #header [data-items]>* {
     margin: 0 !important;
 }
+#header [data-row*=boxed]>div {
+    padding: none;
+}
 
+/* Menu header */
+li .hymperMegaTest {
+    order: 2;
+}
+li#menu-item-20 {
+    order: 3;
+}
+
+#menu-item-21 a {
+    font-size: 13px;
+    font-weight: 700;
+}
+.adminFont {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+#menu-item-20 a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Menu mobile */
+ul#menu-navigation-1 {
+    display: flex;
+    flex-direction: column;
+}
+li.commander.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-20 {
+    order: 3;
+}
+.mobile-menu .adminFont {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+
+
+/* Menu, Boutons + item commander */
+
+.ct-menu-link {
+    padding: 0 32px !important;    
+    text-align: center;
+}
+
+.commander {
+    background-color: #DC9F96;
+    width: 100%;
+}
+.commander a {
+    color: white !important;
+}
+.commander a:hover {
+    background-color: #C02E44;
+}
+.commander a:focus {
+    background-color: #C02E44;
+}
+.commander a:active {
+    background-color: #C02E44;
+}
 
 /* Footer */
 
@@ -32,27 +94,6 @@
     justify-content: center;
 }
 
-/* Menu, Boutons + item commander */
-
-.commander {
-    background-color: #DC9F96;
-    width: 100%;
-}
-.commander a {
-    color: white !important;
-}
-.ct-menu-link {
-    padding: 0 16px !important;    
-}
-.commander a:hover {
-    background-color: #C02E44;
-}
-.commander a:focus {
-    background-color: #C02E44;
-}
-.commander a:active {
-    background-color: #C02E44;
-}
 
 /* Alignement of main and sections */
 
@@ -121,13 +162,6 @@ article#post-18 {
     background-repeat: repeat-x;
     background-size: contain;
 }
-
-/* Page 1, Section Les Goûts */
-.blocDeFruits {}
-
-/* Page 2, Section Nous Rencontrer (bgi) */
-
-
 
 
 /* Formulaire */
@@ -271,8 +305,8 @@ div#wpcf7-f200-p18-o1 {
     font-weight: 800;
 }
 
-#nombre {
-    width: 40px;
+#quantiteFraise {
+    width: 64px;
     height: 56px;
     color: black;
     border: none;
@@ -282,6 +316,46 @@ div#wpcf7-f200-p18-o1 {
     font-size: 16px;
     font-weight: 400;
     font-family: sans-serif !important;
+    text-align: center;
+}
+#quantitePamplemousse {
+    width: 64px;
+    height: 56px;
+    color: black;
+    border: none;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif !important;
+    text-align: center;
+}
+#quantiteFramboise {
+    width: 64px;
+    height: 56px;
+    color: black;
+    border: none;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif !important;
+    text-align: center;
+}
+#quantiteCitron {
+    width: 64px;
+    height: 56px;
+    color: black;
+    border: none;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif !important;
+    text-align: center;
 }
 
 .formulaireChamps {
@@ -369,8 +443,16 @@ div#wpcf7-f200-p18-o1 {
         border: none;
     }
 }
-@media screen and (max-width: 535px) {
-    /* h1 {
-        font-size: 30px !important;
-    } */
+@media screen and (max-width: 580px) {
+    form.wpcf7-form.init .nousContacter {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 580px) {
+    .formulaireFruits .fruitFormContainer {
+        flex-direction: column !important;
+    }
+    .formulaireFruits .colonneFruits {
+        padding-bottom: 48px;
+    }
 }

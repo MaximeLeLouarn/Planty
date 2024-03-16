@@ -26,8 +26,8 @@ add_filter( 'wp_nav_menu_items', 'prefix_add_menu_item', 10, 2 );
  * Add Menu Item to end of menu
  */
 function prefix_add_menu_item ($items, $args) {
-   if($args->theme_location == 'desktop') {
-       $items .=  '<li class="hypermegatest">admin</li>';
+   if (is_user_logged_in() && ($args->theme_location == 'menu_2' || $args->theme_location == 'menu_mobile')) {
+       $items .=  '<li class="hypermegatest"><a href="' . admin_url() . '" class="ct-menu-link adminFont">Admin</a></li>';
       }
        return $items;
 	}
