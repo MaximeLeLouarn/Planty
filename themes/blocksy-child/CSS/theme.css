@@ -9,13 +9,29 @@
 }
 #header [data-column-set="2"]>div {
     grid-template-columns: 25% 75% !important;
+    width: 100%;
+}
+#header [data-column="start"] [data-items="primary"] {
+    display: flex;
+    justify-content: center;
 }
 #header [data-items]>* {
     margin: 0 !important;
 }
 #header [data-row*=boxed]>div {
-    padding: none;
+    padding: 0 !important;
 }
+@media screen and (max-width: 1000px) {
+    #header [data-column-set="2"]>div {
+        width: auto;
+        margin: 0 5%;
+        grid-template-columns: none;
+    }
+    #header [data-column="start"] [data-items="primary"] {
+        justify-content: start;
+    }
+}
+
 
 /* Menu header */
 li .hymperMegaTest {
@@ -129,7 +145,16 @@ article#post-18 {
 .contenuSection1 {
     border-radius: 0% 0% 50% 50% / 25% 25% 7% 7%;
     border-bottom: solid 5px #d5cdc7 !important;
+
 }
+
+.contenuSection1 img{
+    padding: 0px 175px 0px 190px;
+    background-image: url("../images/Branche\ de\ feuilles.png"), url("../images/Feuille\ inverse.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
+    background-size: 50%, 52%;
+ }
 
 .contenuSection3 {
     border-radius: 0% 0% 50% 50% / 25% 25% 3% 3%;
@@ -441,6 +466,22 @@ div#wpcf7-f200-p18-o1 {
         padding-top: 24px;
         padding-left: 0px;
         border: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .avisResponsive .stk-block-columns>.stk-block-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenuSection4 img {
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .ContainerEnvoyerResponsive {
+        display: flex;
     }
 }
 @media screen and (max-width: 580px) {
