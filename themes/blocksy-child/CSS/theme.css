@@ -438,8 +438,14 @@ div#wpcf7-f200-p18-o1 {
         align-items: center;
         max-width: 500px !important;
     }
-}
-@media screen and (max-width: 1000px) {
+    /* Cannettes footer */
+    .insertBackground {
+        height: 100px;
+    }
+    /* Espace entre header et début page Nous rencontrer en responsive */
+    .contenuSection5 {
+        padding-top: 60px !important;
+    }
     .stk-row.stk-inner-blocks.stk-block-content.stk-content-align.stk-7ce1cf6-column{
         flex-direction: column !important;
         max-width: 440px;
@@ -469,7 +475,7 @@ div#wpcf7-f200-p18-o1 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .avisResponsive .stk-block-columns>.stk-block-content {
         display: flex;
         flex-direction: column;
@@ -477,6 +483,12 @@ div#wpcf7-f200-p18-o1 {
     }
     .contenuSection4 img {
         max-width: 150px;
+    }
+    .contenuSection1 img {
+        background-image: none;
+        padding: 0;
+        object-fit: contain;
+        max-height: 400px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -488,8 +500,6 @@ div#wpcf7-f200-p18-o1 {
     form.wpcf7-form.init .nousContacter {
         background-image: none;
     }
-}
-@media screen and (max-width: 580px) {
     .formulaireFruits .fruitFormContainer {
         flex-direction: column !important;
     }
