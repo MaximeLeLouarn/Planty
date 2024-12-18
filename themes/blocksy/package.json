@@ -58,7 +58,7 @@
 		"infinite-scroll": "^4.0.1",
 		"match-conditions": "^1.0.12",
 		"md5": "^2.2.1",
-		"nanoid": "^2.0.0",
+		"nanoid": "^5.0.9",
 		"react-beautiful-dnd": "^13.1.1",
 		"react-copy-to-clipboard": "^5.1.0",
 		"react-sortable-hoc": "^1.8.3",
